@@ -1,6 +1,8 @@
 
 import React, { useState } from 'react';
 import { Menu, X, Cross } from 'lucide-react';
+import logo from '../assets/logo.png';
+
 
 interface NavbarProps {
   activeTab: string;
@@ -24,7 +26,11 @@ const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
         <div className="flex justify-between h-20">
           <div className="flex items-center space-x-3 cursor-pointer" onClick={() => setActiveTab('home')}>
             <div className="bg-[#1e3a8a] p-1.5 rounded-full border-2 border-red-600 shadow-md">
-              <Cross className="text-white w-6 h-6" />
+              <img
+                src={logo}
+                alt="Zion Harvest Logo"
+                className="w-6 h-6 object-contain"
+              />
             </div>
             <div className="flex flex-col">
               <span className="text-xl font-bold tracking-tight text-[#1e3a8a] serif leading-none">ZION HARVEST</span>
