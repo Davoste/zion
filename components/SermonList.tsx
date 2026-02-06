@@ -7,7 +7,7 @@ const MOCK_SERMONS: Sermon[] = [
   {
     id: '1',
     title: 'The Prophetic Harvest',
-    speaker: 'Rev. Emmanuel',
+    speaker: 'Pst. Ezekiel',
     date: 'June 02, 2024',
     thumbnail: 'https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&q=80&w=800',
     series: 'Harvest Season',
@@ -25,7 +25,7 @@ const MOCK_SERMONS: Sermon[] = [
   {
     id: '3',
     title: 'Walking in Dominion',
-    speaker: 'Rev. Emmanuel',
+    speaker: 'Pst. Ezekiel',
     date: 'May 19, 2024',
     thumbnail: 'https://images.unsplash.com/photo-1478147427282-58a87a120781?auto=format&fit=crop&q=80&w=800',
     series: 'Kingdom Power',

@@ -48,7 +48,7 @@ const EventCalendar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <span className="text-stone-500 uppercase tracking-widest text-xs font-bold mb-4 block">Get Involved</span>
-          <h2 className="text-4xl md:text-5xl font-bold serif">Upcoming Events</h2>
+          <h2 className="text-4xl md:text-5xl font-bold serif">Recent Events</h2>
         </div>
 
         <div className="space-y-6">
