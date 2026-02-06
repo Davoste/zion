@@ -4,30 +4,39 @@ import { Clock, MapPin, ArrowRight } from 'lucide-react';
 import { ChurchEvent } from '../types';
 
 const MOCK_EVENTS: ChurchEvent[] = [
+  // {
+  //   id: '1',
+  //   title: 'Youth Summer Kickoff',
+  //   date: 'June 15, 2024',
+  //   time: '6:30 PM - 8:30 PM',
+  //   location: 'The Loft @ Elysian',
+  //   category: 'Youth',
+  //   image: 'https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?auto=format&fit=crop&q=80&w=800'
+  // },
   {
     id: '1',
-    title: 'Youth Summer Kickoff',
-    date: 'June 15, 2024',
-    time: '6:30 PM - 8:30 PM',
-    location: 'The Loft @ Elysian',
-    category: 'Youth',
+    title: 'Members Baptism',
+    date: 'June 15, 2025',
+    time: '8:30 AM - 4:30 PM',
+    location: 'The water tower',
+    category: 'Community',
     image: 'https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?auto=format&fit=crop&q=80&w=800'
   },
   {
     id: '2',
-    title: 'Community Outreach: Food Drive',
-    date: 'June 22, 2024',
-    time: '9:00 AM - 1:00 PM',
-    location: 'Main Parking Lot',
+    title: 'Community Outreach: CRUSADE',
+    date: 'June 22, 2025',
+    time: '6:00 PM - 11:00 PM',
+    location: 'Shopping Center',
     category: 'Community',
     image: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&q=80&w=800'
   },
   {
     id: '3',
-    title: 'Marriage Enrichment Workshop',
-    date: 'July 10, 2024',
-    time: '7:00 PM',
-    location: 'Fellowship Hall',
+    title: 'Ordaination',
+    date: 'July 10, 2025',
+    time: '8:00 AM',
+    location: 'Main Church',
     category: 'Small Group',
     image: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&q=80&w=800'
   }
